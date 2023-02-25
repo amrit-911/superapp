@@ -1,0 +1,220 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.cards_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 140px;
+}
+
+.card_margin {
+    margin: 20px 30px 30px 25px;
+}
+
+.brand {
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 139.69%;
+    color: #72DB73;
+    margin: 50px 0 10px 40px;
+}
+
+.main p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 139.69%;
+    color: #FFFFFF;
+    width: 40%;
+    margin: 50px 0 10px 40px;
+}
+
+.choose_container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.choose_div {
+    width: 143px;
+    height: 42px;
+    background: #148A08;
+    border-radius: 31px;
+    margin: 10px;
+}
+
+.choose {
+    margin: 0px 0 0 20px;
+    position: relative;
+    top: 7px;
+    font-size: 20px;
+    font-family: "DM Sans";
+}
+
+.choose_button {
+    position: relative;
+    bottom: 25px;
+    left: 80px;
+    width: 30px;
+    text-align: center;
+    font-family: "DM Sans";
+    cursor: pointer;
+}
+
+.dummy_container {
+    display: flex;
+}
+
+
+/* qwadswsad */
+
+.radio_container {
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.radio_container:hover {
+    opacity: 80%;
+}
+
+.color1 {
+    background-color: #FF5209;
+}
+
+.color2 {
+    background: #D7A4FF;
+}
+
+.color3 {
+    background: #148A08;
+}
+
+.color4 {
+    background: #84C2FF;
+}
+
+.color5 {
+    background: #912500;
+}
+
+.color6 {
+    background: #7358FF;
+}
+
+.color7 {
+    background: #FF4ADE;
+}
+
+.color8 {
+    background: #E61E32;
+}
+
+.color9 {
+    background: #6CD061;
+}
+
+.radio {
+    display: none;
+    height: 5px;
+    width: 5px;
+}
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.radio_category {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    left: 9px;
+    width: 90%;
+    font-family: "Inconsolata";
+    cursor: pointer;
+}
+
+.category_image {
+    width: 150px;
+    height: 110px;
+    margin: 30px 0px 0 0px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#radio_1:checked~.radio_label1,
+#radio_2:checked~.radio_label2,
+#radio_3:checked~.radio_label3,
+#radio_4:checked~.radio_label4,
+#radio_5:checked~.radio_label5,
+#radio_6:checked~.radio_label6,
+#radio_7:checked~.radio_label7,
+#radio_8:checked~.radio_label8,
+#radio_9:checked~.radio_label9 {
+    box-shadow: 0px 0px 7px 7px rgb(94, 244, 94);
+    border-radius: 20px;
+}
+
+
+/* fewdASZ */
+
+.next_div {
+    text-align: right;
+    margin: 50px 80px 0 0;
+}
+
+.next_button {
+    width: 120px;
+    height: 40px;
+    background: #148A08;
+    border-radius: 38.8571px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.2857px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+    .main {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+        flex-direction: column;
+    }
+    .main p {
+        font-size: 16px;
+    }
+    .choose_container {
+        width: 100%;
+    }
+}

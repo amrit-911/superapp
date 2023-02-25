@@ -20,7 +20,7 @@ body {
     background-image: url(image.png);
 }
 
-.left-span {
+.left_span {
     font-size: 28px;
     width: 50%;
     text-align: center;
@@ -28,7 +28,7 @@ body {
     display: flex;
 }
 
-.left-flex {
+.left_flex {
     display: flex;
     margin-top: 60px;
     margin-left: 30px;
@@ -48,7 +48,7 @@ body {
     background-color: #52d65b;
 }
 
-.left-bottom {
+.left_bottom {
     margin-top: 50%;
     margin-left: 30px;
     font-family: 'Roboto';
@@ -93,7 +93,7 @@ body {
     color: #FFFFFF;
 }
 
-.mail-login {
+.mail_login {
     margin: 0 auto;
 }
 
@@ -109,7 +109,7 @@ body {
     cursor: pointer;
 }
 
-.mail-login span {
+.mail_login span {
     color: #72DB73;
     font-size: 25px;
     margin: 0 10px;
@@ -118,7 +118,7 @@ body {
     user-select: none;
 }
 
-.form-container {
+.form_container {
     margin: 20px auto;
 }
 
@@ -145,12 +145,12 @@ input:focus {
     border: none
 }
 
-.flex-label {
+.flex_label {
     margin: 0 auto;
     width: 420px;
 }
 
-.flex-check {
+.flex_check {
     margin: 0 auto;
     height: 40px;
 }
@@ -172,12 +172,18 @@ input:focus {
     user-select: none;
 }
 
+.registered {
+    color: white;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
 .error {
     width: 10px;
     margin-left: 10px;
 }
 
-.sign-up {
+.sign_up {
     width: 330px;
     height: 35px;
     background-color: #4df258;
@@ -188,7 +194,7 @@ input:focus {
     font-weight: 600;
 }
 
-.sign-up:hover {
+.sign_up:hover {
     background: #6dc36f;
 }
 
