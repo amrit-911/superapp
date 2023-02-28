@@ -1,0 +1,122 @@
+.container {
+    width: 800px;
+    height: 250px;
+    background: #101744;
+    border-radius: 30px;
+}
+
+.date_time {
+    display: flex;
+    width: 800px;
+    background: #FF4ADE;
+    height: 30%;
+    border-radius: 30px 30px 0 0;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.date {
+    width: 50%;
+    text-align: center;
+}
+
+.time {
+    width: 50%;
+    text-align: center;
+}
+
+.weather_container {
+    display: flex;
+    height: 70%;
+    width: 100%;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-around;
+}
+
+.weather {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.cloud {
+    font-size: 120px;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+
+.degree {
+    font-size: 60px;
+}
+
+.pressure {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.pressure p {
+    margin: 0;
+}
+
+.thermo {
+    font-size: 30px;
+    position: relative;
+    height: 0px;
+    right: 50px;
+}
+
+.wind {
+    margin: 10px 0;
+    width: 80px;
+}
+
+.humidity {
+    margin: 10px 0;
+    width: 50%;
+}
+
+.blow {
+    font-size: 30px;
+    position: relative;
+    height: 0px;
+    right: 50px;
+}
+
+.drop {
+    font-size: 30px;
+    position: relative;
+    height: 0px;
+    right: 40px;
+}
+
+.line {
+    height: 0px;
+    width: 1px;
+    font-size: 60px;
+    position: relative;
+    right: 70px;
+    top: 20px;
+}
+
+.line2 {
+    height: 0px;
+    width: 1px;
+    font-size: 60px;
+    position: relative;
+    bottom: 90px;
+    left: 190px;
+}
+
+.loading img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+.container {
+    width: 800px;
+    height: 450px;
+    background: #5746EA;
+    border-radius: 33.428px;
+    display: flex;
+}
+
+.image_container {
+    width: 40%;
+    margin: 40px 0 0 70px;
+}
+
+.image {
+    width: 200px;
+    height: 370px;
+    background-image: url(jettt.jpg);
+    background-position: 70% 0%;
+    background-size: 105%;
+    border: 5.27811px solid #FFFFFF;
+    filter: drop-shadow(0px 8.79684px 7.03748px rgba(0, 0, 0, 0.31));
+    border-radius: 329.002px;
+}
+
+.details_container {
+    width: 60%;
+    margin: 40px;
+}
+
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.email {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.username {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+
+.genere_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genere_div {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    width: 150px;
+    text-align: center;
+    background: #9F94FF;
+    border-radius: 36.9467px;
+    font-size: 16px;
+    margin: 3px 10px 5px 0px;
+    padding: 10px;
+}

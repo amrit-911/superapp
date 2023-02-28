@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+}
+
+.left1 {
+    margin: 10px 20px 0 100px;
+}
+
+.left2 {
+    margin: 10px 20px 0 100px;
+}
+
+.news {
+    margin: 10px 60px 0 20px;
+}

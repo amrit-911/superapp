@@ -1,8 +1,8 @@
 import React from 'react'
-import Left from '../components/ThirdPage/Left'
+import Profile from '../components/ThirdPage/Profile'
 
-export default function Profile() {
+export default function Profiles() {
   return (
-    <div><Left/></div>
+    <div><Profile/></div> 
   )
 }

@@ -23,9 +23,9 @@ const navigate = useNavigate();
       setError(true)
       setResgistration({...registration,valid:true})
     }else{
-       
-      setResgistration({name: "", userName:"", email:"",mobile:"", checkbox:false,valid:false})
-      
+      console.log("reg:",registration)
+      localStorage.setItem("FormValues",JSON.stringify(registration))
+      setResgistration([{name: "", userName:"", email:"",mobile:"", checkbox:false,valid:false}])
       navigate("/onboarding")
     }
   

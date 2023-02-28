@@ -1,0 +1,59 @@
+.container {
+    height: 97vh;
+    width: 450px;
+    background-color: white;
+    border-radius: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+
+img {
+    width: 450px;
+    height: 400px;
+    border-radius: 19px 19px 0 0;
+}
+
+.headline_container {
+    height: 0;
+    position: relative;
+    bottom: 100px;
+}
+
+.image_overlay {
+    background: rgba(0, 0, 0, 0.74);
+    height: 87px;
+}
+
+.headline {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.date_time {
+    display: flex;
+    margin: 10px;
+}
+
+.date {
+    margin-right: 20px;
+}
+
+.news {
+    margin: 20px;
+    color: black;
+    line-height: 35px;
+    text-decoration: underline;
+}
+
+.loading {
+    width: 450px;
+    height: 90vh;
+    text-align: center;
+}
+
+.loading img {
+    width: 100px;
+    height: 100px;
+    margin: 260px auto;
+}

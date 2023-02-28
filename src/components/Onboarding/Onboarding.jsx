@@ -73,6 +73,8 @@ const navigate = useNavigate();
     if(value.length>2){
       console.log("Next Page...")
       navigate("/profile")
+      console.log(value)
+      localStorage.setItem("Selected Genere",JSON.stringify(value))
     }else{
       setSelect("Choose atleast three genere")
     }
