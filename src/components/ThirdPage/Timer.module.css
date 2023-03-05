@@ -1,0 +1,91 @@
+.container {
+    width: 880px;
+    background-color: #1E2343;
+    border-radius: 19px;
+    display: flex;
+    margin-left: 100px;
+    height: 265px;
+}
+
+.slider_contianer {
+    margin: 30px 200px;
+    height: 205px;
+    width: 600px;
+    background: #1E2343;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+}
+
+.mySwiper {
+    height: 60px;
+    text-align: center;
+    font-size: 50px;
+    width: 100px;
+}
+
+.swiper_div {
+    text-align: right;
+    width: 100px;
+    height: 100px;
+}
+
+.time {
+    width: 100px;
+}
+
+.button {
+    color: white;
+    cursor: pointer;
+    width: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.arrowDown,
+.arrowUp {
+    height: 15px;
+    width: 15px;
+}
+
+.start {
+    width: 270px;
+    height: 37px;
+    background: #FF6A6A;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+}
+
+.start:hover {
+    background-color: #c35d5d;
+}
+
+.countdown {
+    font: 80px;
+    font-family: 'roboto';
+}
+
+.progress_container {
+    background-color: green;
+    height: 180px;
+    width: 180px;
+    background: #191E39;
+    box-shadow: -3px -7px 16px rgba(95, 88, 88, 0.23), inset 0px 6px 26px rgba(0, 0, 0, 0.61);
+    border-radius: 100%;
+    margin: auto 0 auto 60px;
+}

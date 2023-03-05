@@ -1,19 +1,20 @@
 .container {
-    width: 800px;
-    height: 450px;
+    width: 450px;
+    height: 250px;
     background: #5746EA;
     border-radius: 33.428px;
     display: flex;
 }
 
 .image_container {
-    width: 40%;
-    margin: 40px 0 0 70px;
+    width: 30%;
+    height: 80%;
+    margin: 35px 0 0 10px;
 }
 
 .image {
-    width: 200px;
-    height: 370px;
+    width: 100px;
+    height: 180px;
     background-image: url(jettt.jpg);
     background-position: 70% 0%;
     background-size: 105%;
@@ -24,31 +25,31 @@
 
 .details_container {
     width: 60%;
-    margin: 40px;
+    margin: 5px 20px 10px 10px;
 }
 
 .name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     color: #FFFFFF;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .email {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     color: #FFFFFF;
 }
 
 .username {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
+    font-weight: 800;
+    font-size: 30px;
     color: #FFFFFF;
     margin: 10px 0;
 }
@@ -62,11 +63,11 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    width: 150px;
+    width: 37px;
     text-align: center;
     background: #9F94FF;
     border-radius: 36.9467px;
-    font-size: 16px;
+    font-size: 10px;
     margin: 3px 10px 5px 0px;
     padding: 10px;
 }

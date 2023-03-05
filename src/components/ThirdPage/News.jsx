@@ -21,7 +21,7 @@ console.log(random)
       console.log(news)
       const date = new Date();
 
-    return (
+      return (
         <div>
             {news?<div className={styles.container}>
         <div className={styles.image_container}>

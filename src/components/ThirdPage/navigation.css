@@ -1,0 +1,14 @@
+.swiper-button-next {
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 100px;
+}
+
+.swiper-button-prev {
+    background-color: yellow;
+    transform: rotate(90deg);
+}
+
+.hello {
+    background: rgb(241, 77, 77);
+}

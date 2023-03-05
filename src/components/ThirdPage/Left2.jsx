@@ -6,8 +6,6 @@ export default function Left2() {
     const date = new Date();
 
     const [weather,setWeather] = useState()
-
-    const apiKey = "9db21b4dfc144dd98ae3206bdc111908"
     
     useEffect(() => {
         const fetchWeather = async()=>{
@@ -42,7 +40,7 @@ export default function Left2() {
                 <div  className={styles.pressure}><div className={styles.thermo}>🌡</div>{weather.currentConditions.pressure} mbar <p>pressure</p><div className={styles.line2}>|</div></div>
             </div>
             
-            <div>
+            <div className={styles.wind_container}>
                 <div  className={styles.wind}><div className={styles.blow}>💨</div>{weather.currentConditions.windspeed} km/h wind</div>
                 <div  className={styles.humidity}><div className={styles.drop}>💧</div>{weather.currentConditions.humidity} humidity</div>
             </div>

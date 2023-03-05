@@ -1,6 +1,4 @@
-import React, { useState,useEffect } from 'react'
 import styles from './Left.module.css';
-import jett from './jett.png'
 
 
 export default function Left() {
@@ -9,7 +7,7 @@ export default function Left() {
       <div className={styles.container}>
         <div className={styles.image_container}>
           <img  alt="" className={styles.image} />
-        </div>
+        </div> 
         <div className={styles.details_container}>
           <div className={styles.name}>{JSON.parse(localStorage.getItem("FormValues")).name}</div>
           <div className={styles.email}>{JSON.parse(localStorage.getItem("FormValues")).email}</div>

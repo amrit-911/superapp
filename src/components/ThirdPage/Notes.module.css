@@ -1,0 +1,56 @@
+.container {
+    width: 370px;
+    height: 400px;
+    background: #F1C75B;
+    border-radius: 19px;
+}
+
+.notes {
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+.header {
+    font-size: 30px;
+    color: black;
+    font-family: 'roboto';
+    font-weight: 500;
+    margin-left: 38px;
+}
+
+textarea {
+    width: 320px;
+    height: 300px;
+    font-size: 28px;
+    resize: none;
+    border: none;
+    margin: 0px 0 0 25px;
+    background-color: #F1C75B;
+    background-image: url(underline.png);
+    background-size: 320px 330px;
+    line-height: 50px;
+    padding: 0 10px;
+    background-repeat: no-repeat;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.notes_button {
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    background: black;
+    text-align: right;
+    position: relative;
+    left: 300px;
+    top: 6px;
+    cursor: pointer;
+}
+
+.notes_button img {
+    height: 26px;
+    width: 26px;
+}
