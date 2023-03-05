@@ -18,6 +18,8 @@ console.log(random)
         fetchNews()
 
       }, [])
+
+      
       console.log(news)
       const date = new Date();
 

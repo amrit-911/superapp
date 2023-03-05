@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+}
+
+.brand {
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 139.69%;
+    color: #72DB73;
+}
+
+.genere {
+    font-size: 25px;
+    margin: 10px 0;
+    font-family: 'roboto';
+    color: #878787;
+}
+
+.container p {
+    font-size: 25px;
+    margin: 0 30px;
+    font-family: 'roboto';
+}
+
+.movies_container {
+    margin: 30px;
+}
+
+.profile_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.action_slide img {
+    width: 250px;
+    height: 150px;
+    border-radius: 9.15886px;
+}

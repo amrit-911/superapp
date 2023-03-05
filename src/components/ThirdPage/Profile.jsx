@@ -29,7 +29,7 @@ export default function Profile() {
       <Timer/>
     </div>
     </div>
-    <div onClick={clickBrowse} className={styles.news}><News/><button className={styles.browse}>Browse</button></div>
+    <div  className={styles.news}><News/><button onClick={clickBrowse} className={styles.browse}>Browse</button></div>
   </div>
   
   </>
